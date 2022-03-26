@@ -3,11 +3,7 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {cart,clicked}=props;
-    // const [card,setCards]=useState([]);
-
-    // const clicked = () => {
-        // console.log(clicked);
-    // }
+   
     return (
         <div>
             <div className="container">
