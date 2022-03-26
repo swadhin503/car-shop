@@ -1,0 +1,11 @@
+.car-card{
+    border: 1px solid gray;
+    width:286px;
+    padding: 5px;
+    border-radius:10px;
+}
+.car-card img{
+    width:286px;
+    height:286px;
+    border-radius:10px;
+}
