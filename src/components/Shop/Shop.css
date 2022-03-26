@@ -25,6 +25,24 @@
     width: 80%;
     margin-left:10px;
 }
+.picked{
+    margin-top: 30px;
+    border: 2px solid orange;
+    background-color:gainsboro;
+}
+.picked img{
+    width: 30%;
+}
+.picked h4{
+    text-align: center;
+}
+.pick{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-bottom:20px;
+}
 
 @media  screen and (max-width:600px){
    .cars-container{
