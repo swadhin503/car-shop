@@ -3,9 +3,19 @@
     width:286px;
     padding: 5px;
     border-radius:10px;
+    background-color:rgb(238, 243, 247);
 }
 .car-card img{
     width:286px;
     height:286px;
     border-radius:10px;
+    
+}
+.card-btn{
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top:20px;
+    margin-bottom:10px;
+    background-color:blueviolet;
+    color: white;
 }
