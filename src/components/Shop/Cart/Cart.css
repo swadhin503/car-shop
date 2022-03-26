@@ -1,5 +1,15 @@
-.cart-container{
-    border-left: 1px solid pink;
+
+.container{
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: row;
+    padding:3px;
+    background-color:lawngreen;
+    /* justify-content: center; */
+}
+.container img{
+    width: 20%;
+    margin-right: 5px;
 }
 .cart-title{
     text-align: center;

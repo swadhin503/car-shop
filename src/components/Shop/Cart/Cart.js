@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart}=props;
-    console.log(cart)
-    // for(const singleCart of cart){
+    const {cart,clicked}=props;
+    // const [card,setCards]=useState([]);
 
+    // const clicked = () => {
+        // console.log(clicked);
     // }
-
     return (
-        <div className="cart-container">
-            <h1 className="cart-title">Order Infos</h1>
-            <h3>price {cart.length}</h3>
+        <div>
+            <div className="container">
+                <img src={cart.img} alt="" />
+               <h4 className="cart-title">name: {cart.name}</h4>
+            </div>
         </div>
     );
 };
